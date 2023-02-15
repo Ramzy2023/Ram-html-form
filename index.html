@@ -15,15 +15,11 @@
     <form action="#">
     <!--(((((((((((((((((((((((((Filedset 1)))))))))))))))))))))))))-->
         <fieldset>
-            <legend>Personal </legend>
+            <legend>Personal Details </legend>
             <label for="fname">Enter your First name:<input type="text" id="fname" name="fname"></label>
-           
             <label for="lname">Enter your Last name:<input type="text" id="lname" name="lname"></label>
-            
             <label for="email">Enter your Email:<input type="email" id="email" name="email"></label>
-            
-            <label for="birthday">Enter your Password:<input type="password" id="password" name="password"></label>
-           
+            <label for="password">Enter your Password:<input type="password" id="password" name="password"></label>
         </fieldset>
     <!--(((((((((((((((((((((((((Fieldset 2)))))))))))))))))))))))))-->
         <fieldset>
@@ -36,7 +32,7 @@
             <label for="#">Upload a profile picture:<input type="file" name="fileupload"></label>
             <label for="#">Input your age(years):<input name="age" type="number" min="13" max="120"></label>
             <label>
-              How did you hear from us?
+              How did you hear from us?:
               <select name="referrer">
                 <option value="">Select One</option>
                 <option value="1" name="news">News</option>
@@ -45,8 +41,8 @@
                 <option value="4" name="others">Others</option>
               </select>
             </label>
-            <label>
-              <textarea name="bio"  placeholder="I like coding on a rainy day"></textarea>
+            <label>Provide Bio:
+              <textarea name="bio" placeholder="I like coding on a rainy day"></textarea>
             </label>
             </fieldset>
           <input type="submit" value="Submit">
