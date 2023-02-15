@@ -13,11 +13,41 @@
     <!--(((((((((((((((((((((((((((((FORM)))))))))))))))))))))))))))))-->
     <form action="#">
     <!--(((((((((((((((((((((((((Filedset 1)))))))))))))))))))))))))-->
-
+        <fieldset>
+            <legend>Personal </legend>
+            <label for="fname">First name:<input type="text" id="fname" name="fname"></label>
+           
+            <label for="lname">Last name:<input type="text" id="lname" name="lname"></label>
+            
+            <label for="email">Email:<input type="email" id="email" name="email"></label>
+            
+            <label for="birthday">Birthday:<input type="date" id="birthday" name="birthday"></label>
+           
+        </fieldset>
     <!--(((((((((((((((((((((((((Fieldset 2)))))))))))))))))))))))))-->
-
+        <fieldset>
+            <label for="#"><input type="radio" name="account-type" id="">Personal Account</label>
+            <label for="#"><input type="radio" name="account-type" id="">Business Partner Account</label>
+            <label for="#"><input type="checkbox" required>I accept the <a href="#">terms and conditions</a></label>
+          </fieldset>
     <!--(((((((((((((((((((((((((Fieldset 3)))))))))))))))))))))))))-->
+        <fieldset>
+            <label for="#">Upload a profile picture:<input type="file"></label>
+            <label for="#">Input your age(years):<input type="number" min="13" max="120"></label>
+            <label>
+              How did you hear from us?
+              <select>
+                <option value="">Select One</option>
+                <option value="1">News</option>
+                <option value="2">Blog</option>
+                <option value="3">Forums</option>
+                <option value="4">Others</option>
+              </select>
+            </label>
+            </fieldset>
+          <input type="submit" value="Submit">
 
+          
     <!--(((((((((((((((((((((((((Fieldset 4)))))))))))))))))))))))))-->
 
     </form>
